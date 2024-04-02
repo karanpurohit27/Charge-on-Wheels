@@ -28,7 +28,7 @@ function createTable() {
 
     db.query(sql, (err, result) => {
         if (err) {
-            throw err;
+            console.log(err) ;
         }
         console.log('Table created');
     });
